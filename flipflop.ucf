@@ -1,0 +1,18 @@
+
+NET "J" LOC = P21;
+NET "K" LOC = P22;
+NET "reset" LOC = P17;
+NET "clock" LOC = P84;
+
+NET "Q" LOC = P33;
+NET "Qbar" LOC = P32;
+
+
+NET "J1" LOC = P15;
+NET "K1" LOC = P16;
+NET "reset1" LOC = P14;
+
+
+NET "Q1" LOC = P29;
+NET "Qbar1" LOC = P27;
+

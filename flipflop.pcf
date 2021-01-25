@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Jan 25 14:12:47 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "reset1" LOCATE = SITE "P14" LEVEL 1;
+COMP "Q1" LOCATE = SITE "P29" LEVEL 1;
+COMP "Qbar1" LOCATE = SITE "P27" LEVEL 1;
+COMP "Qbar" LOCATE = SITE "P32" LEVEL 1;
+COMP "clock" LOCATE = SITE "P84" LEVEL 1;
+COMP "J" LOCATE = SITE "P21" LEVEL 1;
+COMP "K" LOCATE = SITE "P22" LEVEL 1;
+COMP "reset" LOCATE = SITE "P17" LEVEL 1;
+COMP "Q" LOCATE = SITE "P33" LEVEL 1;
+COMP "J1" LOCATE = SITE "P15" LEVEL 1;
+COMP "K1" LOCATE = SITE "P16" LEVEL 1;
+SCHEMATIC END;
+
