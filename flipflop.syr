@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.38 secs
+Total CPU time to Xst completion: 0.68 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.38 secs
+Total CPU time to Xst completion: 0.70 secs
  
 --> Reading design: flipflop.prj
 
@@ -351,8 +351,8 @@ clock          |    1.619|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.11 secs
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.05 secs
  
 --> 
 

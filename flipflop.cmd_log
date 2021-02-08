@@ -35,3 +35,10 @@ map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -reg
 par -w -intstyle ise -ol high -mt off flipflop_map.ncd flipflop.ncd flipflop.pcf 
 trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml flipflop.twx flipflop.ncd -o flipflop.twr flipflop.pcf -ucf flipflop.ucf 
 bitgen -intstyle ise -f flipflop.ut flipflop.ncd 
+bitgen -intstyle ise -f flipflop.ut flipflop.ncd 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/flipflop/flipflop.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/flipflop/flipflop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc flipflop.ucf -p xc6slx9-tqg144-2 "flipflop.ngc" flipflop.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o flipflop_map.ncd flipflop.ngd flipflop.pcf 
+par -w -intstyle ise -ol high -mt off flipflop_map.ncd flipflop.ncd flipflop.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml flipflop.twx flipflop.ncd -o flipflop.twr flipflop.pcf -ucf flipflop.ucf 
+bitgen -intstyle ise -f flipflop.ut flipflop.ncd 

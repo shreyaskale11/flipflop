@@ -2,7 +2,7 @@
 Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+C:\xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
 -n 3 -fastpaths -xml flipflop.twx flipflop.ncd -o flipflop.twr flipflop.pcf
 -ucf flipflop.ucf
 
@@ -65,7 +65,7 @@ clock          |    1.441|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Mon Jan 25 14:13:00 2021 
+Analysis completed Sun Jan 31 22:56:32 2021 
 --------------------------------------------------------------------------------
 
 Trace Settings:
